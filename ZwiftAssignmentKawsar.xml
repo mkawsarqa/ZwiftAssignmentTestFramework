@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Kawsar">
+	<test thread-count="2" parallel="methods" name="ZwiftAssignment">
+		<classes>
+			<class name="stepDefinitions.EventsTest" />
+			<class name="stepDefinitions.HomePageTest" />
+		</classes>
+	</test> <!-- ZwiftAssignment -->
+</suite> <!-- Kawsar -->
